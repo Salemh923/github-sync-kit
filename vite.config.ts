@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
-  base: "/",
+  base: "/github-sync-kit/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: { "@": path.resolve(import.meta.dirname, "src") },
